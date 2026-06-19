@@ -6,23 +6,35 @@
 <title>NEXTGEN NEET | JEE Academy</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial, sans-serif;
+font-family:'Segoe UI',sans-serif;
 }
 
 body{
 background:#f5f7fa;
 color:#333;
+line-height:1.6;
 }
 
 header{
 background:linear-gradient(135deg,#0d47a1,#1976d2);
 color:white;
-padding:60px 20px;
+padding:50px 20px;
 text-align:center;
+}
+
+.logo{
+width:220px;
+max-width:90%;
+background:white;
+padding:10px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,.2);
+margin-bottom:20px;
 }
 
 header h1{
@@ -37,12 +49,17 @@ font-size:1.2rem;
 .btn{
 display:inline-block;
 margin-top:20px;
-padding:12px 25px;
+padding:12px 30px;
 background:#4caf50;
 color:white;
 text-decoration:none;
 border-radius:30px;
 font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#2e7d32;
 }
 
 section{
@@ -55,12 +72,13 @@ margin:auto;
 text-align:center;
 margin-bottom:40px;
 color:#0d47a1;
+font-size:2rem;
 }
 
 .cards{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
+gap:25px;
 }
 
 .card{
@@ -69,6 +87,11 @@ padding:25px;
 border-radius:15px;
 box-shadow:0 4px 15px rgba(0,0,0,.1);
 text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
 }
 
 .card h3{
@@ -78,16 +101,21 @@ margin-bottom:10px;
 
 .highlight{
 background:#e8f5e9;
-border-left:5px solid #4caf50;
-padding:20px;
+border-left:6px solid #4caf50;
+padding:25px;
 border-radius:10px;
+font-size:1.1rem;
 }
 
 .contact{
 background:#0d47a1;
 color:white;
 text-align:center;
-padding:50px 20px;
+padding:60px 20px;
+}
+
+.contact h2{
+margin-bottom:15px;
 }
 
 .whatsapp{
@@ -100,6 +128,7 @@ padding:15px 20px;
 border-radius:50px;
 text-decoration:none;
 font-weight:bold;
+box-shadow:0 4px 15px rgba(0,0,0,.2);
 }
 
 footer{
@@ -108,479 +137,168 @@ color:white;
 text-align:center;
 padding:20px;
 }
+
+.reg{
+margin-top:10px;
+font-size:14px;
+color:#ddd;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
+
+<img src="nextgen-logo.jpg" alt="NEXTGEN Logo" class="logo">
+
 <h1>NEXTGEN NEET | JEE Academy</h1>
-<p>Future Doctors & Engineers Start Here</p>
-<a href="https://wa.me/918825658383" class="btn">Contact Now</a>
+
+<p>Dream • Prepare • Achieve</p>
+
+<p>Admissions Open for Academic Year 2026-27</p>
+
+<a href="https://wa.me/918825658383" class="btn">
+Contact Now
+</a>
+
 </header>
 
 <section>
+
 <h2 class="section-title">About Us</h2>
-<p style="text-align:center;">
-NEXTGEN NEET | JEE Academy is dedicated to preparing students for NEET and JEE through expert guidance, regular assessments, and personalized mentoring.
+
+<p style="text-align:center;max-width:900px;margin:auto;">
+NEXTGEN NEET | JEE Academy provides comprehensive coaching for NEET, JEE Main & Advanced examinations. We focus on conceptual learning, personalized mentoring, regular assessments, and career guidance to help students achieve their dreams.
 </p>
+
 </section>
 
 <section>
+
 <h2 class="section-title">Courses Offered</h2>
 
 <div class="cards">
+
 <div class="card">
 <h3>NEET Coaching</h3>
-<p>Complete preparation for NEET aspirants.</p>
+<p>Complete NEET preparation based on NCERT syllabus.</p>
 </div>
 
 <div class="card">
 <h3>JEE Coaching</h3>
-<p>Advanced training for JEE Main & Advanced.</p>
+<p>Advanced coaching for JEE Main & Advanced.</p>
 </div>
 
 <div class="card">
 <h3>Foundation Program</h3>
-<p>For Classes 9 to 12 students.</p>
+<p>For Classes 9th to 12th students.</p>
 </div>
 
 <div class="card">
 <h3>Scholarship Exam</h3>
-<p>Merit-based fee concessions.</p>
+<p>Merit-based scholarship for deserving students.</p>
 </div>
+
 </div>
+
 </section>
 
 <section>
+
 <h2 class="section-title">Why Choose Us?</h2>
 
 <div class="cards">
-<div class="card">Experienced Faculty</div>
-<div class="card">Weekly Tests</div>
+
+<div class="card">Experienced Faculty Team</div>
+
+<div class="card">Weekly Tests & Assessments</div>
+
 <div class="card">Performance Analysis</div>
+
 <div class="card">Doubt Clarification Sessions</div>
+
 <div class="card">Online & Offline Classes</div>
-<div class="card">Career Guidance</div>
+
+<div class="card">Career Guidance & Mentorship</div>
+
 </div>
+
 </section>
 
 <section>
+
+<h2 class="section-title">Course Fee Structure</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Regular Fee</h3>
+<h2><del>₹30,000</del></h2>
+<h1>₹25,000</h1>
+<p>Per Year</p>
+</div>
+
+<div class="card">
+<h3>Scholarship Fee</h3>
+<h2>20% Scholarship</h2>
+<h1>₹20,000</h1>
+<p>Per Year</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
 <h2 class="section-title">Scholarship Program</h2>
 
 <div class="highlight">
-<h3>Government School Students</h3>
+
+<h3>Government School Students Scholarship</h3>
+
 <p>
-20% Fee Concession through Scholarship Entrance Examination.
-Merit-Based Selection.
+✔ 20% Fee Concession<br>
+✔ Merit-Based Selection<br>
+✔ Scholarship Entrance Examination<br>
+✔ Limited Seats Available
 </p>
+
 </div>
+
 </section>
 
 <div class="contact">
+
 <h2>Contact Us</h2>
-<br>
+
 <p><strong>Er. Shahul Hameed. F</strong></p>
+
 <p>Chief Administrative Officer</p>
+
 <p>📞 +91 88256 58383</p>
-<p>📍 Kadayanallur, Tamil Nadu</p>
-</div>
 
-<footer>
-© 2026 NEXTGEN NEET | JEE Academy. All Rights Reserved.
-</footer>
-
-<a href="https://wa.me/918825658383" class="whatsapp">WhatsApp</a>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NEXTGEN NEET | JEE Academy</title>
-
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, sans-serif;
-}
-
-body{
-background:#f5f7fa;
-color:#333;
-}
-
-header{
-background:linear-gradient(135deg,#0d47a1,#1976d2);
-color:white;
-padding:60px 20px;
-text-align:center;
-}
-
-header h1{
-font-size:3rem;
-margin-bottom:10px;
-}
-
-header p{
-font-size:1.2rem;
-}
-
-.btn{
-display:inline-block;
-margin-top:20px;
-padding:12px 25px;
-background:#4caf50;
-color:white;
-text-decoration:none;
-border-radius:30px;
-font-weight:bold;
-}
-
-section{
-padding:60px 20px;
-max-width:1200px;
-margin:auto;
-}
-
-.section-title{
-text-align:center;
-margin-bottom:40px;
-color:#0d47a1;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:15px;
-box-shadow:0 4px 15px rgba(0,0,0,.1);
-text-align:center;
-}
-
-.card h3{
-color:#0d47a1;
-margin-bottom:10px;
-}
-
-.highlight{
-background:#e8f5e9;
-border-left:5px solid #4caf50;
-padding:20px;
-border-radius:10px;
-}
-
-.contact{
-background:#0d47a1;
-color:white;
-text-align:center;
-padding:50px 20px;
-}
-
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:15px 20px;
-border-radius:50px;
-text-decoration:none;
-font-weight:bold;
-}
-
-footer{
-background:#111;
-color:white;
-text-align:center;
-padding:20px;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-<h1>NEXTGEN NEET | JEE Academy</h1>
-<p>Future Doctors & Engineers Start Here</p>
-<a href="https://wa.me/918825658383" class="btn">Contact Now</a>
-</header>
-
-<section>
-<h2 class="section-title">About Us</h2>
-<p style="text-align:center;">
-NEXTGEN NEET | JEE Academy is dedicated to preparing students for NEET and JEE through expert guidance, regular assessments, and personalized mentoring.
-</p>
-</section>
-
-<section>
-<h2 class="section-title">Courses Offered</h2>
-
-<div class="cards">
-<div class="card">
-<h3>NEET Coaching</h3>
-<p>Complete preparation for NEET aspirants.</p>
-</div>
-
-<div class="card">
-<h3>JEE Coaching</h3>
-<p>Advanced training for JEE Main & Advanced.</p>
-</div>
-
-<div class="card">
-<h3>Foundation Program</h3>
-<p>For Classes 9 to 12 students.</p>
-</div>
-
-<div class="card">
-<h3>Scholarship Exam</h3>
-<p>Merit-based fee concessions.</p>
-</div>
-</div>
-</section>
-
-<section>
-<h2 class="section-title">Why Choose Us?</h2>
-
-<div class="cards">
-<div class="card">Experienced Faculty</div>
-<div class="card">Weekly Tests</div>
-<div class="card">Performance Analysis</div>
-<div class="card">Doubt Clarification Sessions</div>
-<div class="card">Online & Offline Classes</div>
-<div class="card">Career Guidance</div>
-</div>
-</section>
-
-<section>
-<h2 class="section-title">Scholarship Program</h2>
-
-<div class="highlight">
-<h3>Government School Students</h3>
 <p>
-20% Fee Concession through Scholarship Entrance Examination.
-Merit-Based Selection.
+📍 74/35, South Ayyapuram Street,<br>
+Kadayanallur - 627751,<br>
+Tenkasi District, Tamil Nadu
 </p>
-</div>
-</section>
 
-<div class="contact">
-<h2>Contact Us</h2>
-<br>
-<p><strong>Er. Shahul Hameed. F</strong></p>
-<p>Chief Administrative Officer</p>
-<p>📞 +91 88256 58383</p>
-<p>📍 Kadayanallur, Tamil Nadu</p>
 </div>
 
 <footer>
-© 2026 NEXTGEN NEET | JEE Academy. All Rights Reserved.
+
+<p>© 2026 NEXTGEN NEET | JEE Academy. All Rights Reserved.</p>
+
+<p class="reg">REG: TN-37-0056022</p>
+
 </footer>
 
-<a href="https://wa.me/918825658383" class="whatsapp">WhatsApp</a>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NEXTGEN NEET | JEE Academy</title>
-
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, sans-serif;
-}
-
-body{
-background:#f5f7fa;
-color:#333;
-}
-
-header{
-background:linear-gradient(135deg,#0d47a1,#1976d2);
-color:white;
-padding:60px 20px;
-text-align:center;
-}
-
-header h1{
-font-size:3rem;
-margin-bottom:10px;
-}
-
-header p{
-font-size:1.2rem;
-}
-
-.btn{
-display:inline-block;
-margin-top:20px;
-padding:12px 25px;
-background:#4caf50;
-color:white;
-text-decoration:none;
-border-radius:30px;
-font-weight:bold;
-}
-
-section{
-padding:60px 20px;
-max-width:1200px;
-margin:auto;
-}
-
-.section-title{
-text-align:center;
-margin-bottom:40px;
-color:#0d47a1;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:15px;
-box-shadow:0 4px 15px rgba(0,0,0,.1);
-text-align:center;
-}
-
-.card h3{
-color:#0d47a1;
-margin-bottom:10px;
-}
-
-.highlight{
-background:#e8f5e9;
-border-left:5px solid #4caf50;
-padding:20px;
-border-radius:10px;
-}
-
-.contact{
-background:#0d47a1;
-color:white;
-text-align:center;
-padding:50px 20px;
-}
-
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:15px 20px;
-border-radius:50px;
-text-decoration:none;
-font-weight:bold;
-}
-
-footer{
-background:#111;
-color:white;
-text-align:center;
-padding:20px;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-<h1>NEXTGEN NEET | JEE Academy</h1>
-<p>Future Doctors & Engineers Start Here</p>
-<a href="https://wa.me/918825658383" class="btn">Contact Now</a>
-</header>
-
-<section>
-<h2 class="section-title">About Us</h2>
-<p style="text-align:center;">
-NEXTGEN NEET | JEE Academy is dedicated to preparing students for NEET and JEE through expert guidance, regular assessments, and personalized mentoring.
-</p>
-</section>
-
-<section>
-<h2 class="section-title">Courses Offered</h2>
-
-<div class="cards">
-<div class="card">
-<h3>NEET Coaching</h3>
-<p>Complete preparation for NEET aspirants.</p>
-</div>
-
-<div class="card">
-<h3>JEE Coaching</h3>
-<p>Advanced training for JEE Main & Advanced.</p>
-</div>
-
-<div class="card">
-<h3>Foundation Program</h3>
-<p>For Classes 9 to 12 students.</p>
-</div>
-
-<div class="card">
-<h3>Scholarship Exam</h3>
-<p>Merit-based fee concessions.</p>
-</div>
-</div>
-</section>
-
-<section>
-<h2 class="section-title">Why Choose Us?</h2>
-
-<div class="cards">
-<div class="card">Experienced Faculty</div>
-<div class="card">Weekly Tests</div>
-<div class="card">Performance Analysis</div>
-<div class="card">Doubt Clarification Sessions</div>
-<div class="card">Online & Offline Classes</div>
-<div class="card">Career Guidance</div>
-</div>
-</section>
-
-<section>
-<h2 class="section-title">Scholarship Program</h2>
-
-<div class="highlight">
-<h3>Government School Students</h3>
-<p>
-20% Fee Concession through Scholarship Entrance Examination.
-Merit-Based Selection.
-</p>
-</div>
-</section>
-
-<div class="contact">
-<h2>Contact Us</h2>
-<br>
-<p><strong>Er. Shahul Hameed. F</strong></p>
-<p>Chief Administrative Officer</p>
-<p>📞 +91 88256 58383</p>
-<p>📍 Kadayanallur, Tamil Nadu</p>
-</div>
-
-<footer>
-© 2026 NEXTGEN NEET | JEE Academy. All Rights Reserved.
-</footer>
-
-<a href="https://wa.me/918825658383" class="whatsapp">WhatsApp</a>
+<a href="https://wa.me/918825658383" class="whatsapp">
+WhatsApp
+</a>
 
 </body>
 </html>
