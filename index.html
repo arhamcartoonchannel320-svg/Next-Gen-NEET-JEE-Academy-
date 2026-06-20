@@ -3,7 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>NEXTGEN NEET | JEE Academy</title>
+
+<meta name="description" content="NEXTGEN NEET | JEE Academy - NEET, JEE Main & Advanced Coaching in Kadayanallur.">
+<meta name="keywords" content="NEET Coaching, JEE Coaching, NEXTGEN Academy, Kadayanallur">
 
 <style>
 
@@ -12,19 +16,22 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 font-family:'Segoe UI',sans-serif;
+scroll-behavior:smooth;
 }
 
 body{
-background:#f5f7fa;
+background:#f4f7fb;
 color:#333;
 line-height:1.6;
 }
 
+/* Header */
+
 header{
-background:linear-gradient(135deg,#0d47a1,#1976d2);
+background:linear-gradient(135deg,#001f5b,#0d47a1);
 color:white;
-padding:50px 20px;
 text-align:center;
+padding:60px 20px;
 }
 
 .logo{
@@ -32,9 +39,9 @@ width:220px;
 max-width:90%;
 background:white;
 padding:10px;
-border-radius:15px;
-box-shadow:0 4px 15px rgba(0,0,0,.2);
+border-radius:20px;
 margin-bottom:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.25);
 }
 
 header h1{
@@ -44,23 +51,26 @@ margin-bottom:10px;
 
 header p{
 font-size:1.2rem;
+margin-bottom:10px;
 }
 
 .btn{
 display:inline-block;
-margin-top:20px;
-padding:12px 30px;
-background:#4caf50;
+background:#ff9800;
 color:white;
+padding:14px 30px;
 text-decoration:none;
-border-radius:30px;
+border-radius:50px;
 font-weight:bold;
+margin-top:15px;
 transition:.3s;
 }
 
 .btn:hover{
-background:#2e7d32;
+background:#f57c00;
 }
+
+/* Sections */
 
 section{
 padding:60px 20px;
@@ -70,9 +80,9 @@ margin:auto;
 
 .section-title{
 text-align:center;
-margin-bottom:40px;
-color:#0d47a1;
 font-size:2rem;
+color:#0d47a1;
+margin-bottom:40px;
 }
 
 .cards{
@@ -85,13 +95,13 @@ gap:25px;
 background:white;
 padding:25px;
 border-radius:15px;
-box-shadow:0 4px 15px rgba(0,0,0,.1);
-text-align:center;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
 transition:.3s;
+text-align:center;
 }
 
 .card:hover{
-transform:translateY(-5px);
+transform:translateY(-8px);
 }
 
 .card h3{
@@ -101,11 +111,40 @@ margin-bottom:10px;
 
 .highlight{
 background:#e8f5e9;
-border-left:6px solid #4caf50;
 padding:25px;
+border-left:6px solid #4caf50;
 border-radius:10px;
-font-size:1.1rem;
 }
+
+.stats{
+background:#0d47a1;
+color:white;
+}
+
+.stats .card{
+background:white;
+color:#0d47a1;
+}
+
+.counter{
+font-size:3rem;
+font-weight:bold;
+}
+
+/* FAQ */
+
+.faq-question{
+cursor:pointer;
+font-weight:bold;
+color:#0d47a1;
+}
+
+.faq-answer{
+display:none;
+margin-top:10px;
+}
+
+/* Contact */
 
 .contact{
 background:#0d47a1;
@@ -115,8 +154,17 @@ padding:60px 20px;
 }
 
 .contact h2{
-margin-bottom:15px;
+margin-bottom:20px;
 }
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* WhatsApp */
 
 .whatsapp{
 position:fixed;
@@ -131,17 +179,25 @@ font-weight:bold;
 box-shadow:0 4px 15px rgba(0,0,0,.2);
 }
 
-footer{
-background:#111;
-color:white;
-text-align:center;
+.banner{
+background:#fff3cd;
 padding:20px;
+text-align:center;
+font-size:1.3rem;
+font-weight:bold;
+color:#d32f2f;
 }
 
-.reg{
-margin-top:10px;
-font-size:14px;
-color:#ddd;
+@media(max-width:768px){
+
+header h1{
+font-size:2rem;
+}
+
+.section-title{
+font-size:1.6rem;
+}
+
 }
 
 </style>
@@ -151,27 +207,63 @@ color:#ddd;
 
 <header>
 
-<img src="nextgen-logo.jpg" alt="NEXTGEN Logo" class="logo">
+<img src="logo.jpg" alt="NEXTGEN Logo" class="logo">
 
 <h1>NEXTGEN NEET | JEE Academy</h1>
+
+<p>NEET | JEE Main | JEE Advanced Coaching</p>
 
 <p>Dream • Prepare • Achieve</p>
 
 <p>Admissions Open for Academic Year 2026-27</p>
 
-<a href="https://wa.me/918825658383" class="btn">
-Contact Now
+<a href="#contact" class="btn">
+Enroll Now
 </a>
 
 </header>
+
+<div class="banner">
+🎯 Classes Starting From 01 July 2026
+</div>
 
 <section>
 
 <h2 class="section-title">About Us</h2>
 
 <p style="text-align:center;max-width:900px;margin:auto;">
-NEXTGEN NEET | JEE Academy provides comprehensive coaching for NEET, JEE Main & Advanced examinations. We focus on conceptual learning, personalized mentoring, regular assessments, and career guidance to help students achieve their dreams.
+NEXTGEN NEET | JEE Academy provides quality coaching for NEET, JEE Main and JEE Advanced examinations. Our goal is to help students achieve academic excellence through concept-based learning, regular assessments and personal mentoring.
 </p>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Course Details</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Eligibility</h3>
+<p>Class 9 to 12 Students</p>
+</div>
+
+<div class="card">
+<h3>Duration</h3>
+<p>2 Years Integrated Program</p>
+</div>
+
+<div class="card">
+<h3>Class Mode</h3>
+<p>Offline + Live Online</p>
+</div>
+
+<div class="card">
+<h3>Daily Schedule</h3>
+<p>2 Hours Per Day</p>
+</div>
+
+</div>
 
 </section>
 
@@ -183,22 +275,54 @@ NEXTGEN NEET | JEE Academy provides comprehensive coaching for NEET, JEE Main & 
 
 <div class="card">
 <h3>NEET Coaching</h3>
-<p>Complete NEET preparation based on NCERT syllabus.</p>
+<p>NCERT Based Preparation</p>
 </div>
 
 <div class="card">
 <h3>JEE Coaching</h3>
-<p>Advanced coaching for JEE Main & Advanced.</p>
+<p>Main & Advanced Preparation</p>
 </div>
 
 <div class="card">
 <h3>Foundation Program</h3>
-<p>For Classes 9th to 12th students.</p>
+<p>For Class 9 to 12 Students</p>
 </div>
 
 <div class="card">
-<h3>Scholarship Exam</h3>
-<p>Merit-based scholarship for deserving students.</p>
+<h3>Scholarship Program</h3>
+<p>20% Fee Concession</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<h2 class="section-title" style="color:white;">
+Our Achievements
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h1 class="counter" data-target="500">0</h1>
+<p>Students Trained</p>
+</div>
+
+<div class="card">
+<h1 class="counter" data-target="100">0</h1>
+<p>Scholarship Students</p>
+</div>
+
+<div class="card">
+<h1 class="counter" data-target="50">0</h1>
+<p>Mock Tests</p>
+</div>
+
+<div class="card">
+<h1 class="counter" data-target="95">0</h1>
+<p>Success Rate %</p>
 </div>
 
 </div>
@@ -207,21 +331,18 @@ NEXTGEN NEET | JEE Academy provides comprehensive coaching for NEET, JEE Main & 
 
 <section>
 
-<h2 class="section-title">Why Choose Us?</h2>
+<h2 class="section-title">Why Choose NEXTGEN?</h2>
 
 <div class="cards">
 
-<div class="card">Experienced Faculty Team</div>
-
-<div class="card">Weekly Tests & Assessments</div>
-
+<div class="card">Experienced Faculty</div>
+<div class="card">Weekly Test Series</div>
+<div class="card">Recorded Classes</div>
 <div class="card">Performance Analysis</div>
-
-<div class="card">Doubt Clarification Sessions</div>
-
-<div class="card">Online & Offline Classes</div>
-
-<div class="card">Career Guidance & Mentorship</div>
+<div class="card">Doubt Clarification</div>
+<div class="card">Career Guidance</div>
+<div class="card">Parent Progress Reports</div>
+<div class="card">Personal Mentorship</div>
 
 </div>
 
@@ -234,17 +355,27 @@ NEXTGEN NEET | JEE Academy provides comprehensive coaching for NEET, JEE Main & 
 <div class="cards">
 
 <div class="card">
+
 <h3>Regular Fee</h3>
+
 <h2><del>₹30,000</del></h2>
-<h1>₹25,000</h1>
+
+<h1 style="color:#4caf50;">₹25,000</h1>
+
 <p>Per Year</p>
+
 </div>
 
 <div class="card">
+
 <h3>Scholarship Fee</h3>
+
 <h2>20% Scholarship</h2>
-<h1>₹20,000</h1>
+
+<h1 style="color:#ff9800;">₹20,000</h1>
+
 <p>Per Year</p>
+
 </div>
 
 </div>
@@ -253,32 +384,137 @@ NEXTGEN NEET | JEE Academy provides comprehensive coaching for NEET, JEE Main & 
 
 <section>
 
-<h2 class="section-title">Scholarship Program</h2>
+<h2 class="section-title">
+Scholarship Entrance Examination
+</h2>
 
 <div class="highlight">
 
-<h3>Government School Students Scholarship</h3>
+<h3>Government School Students Only</h3>
 
 <p>
 ✔ 20% Fee Concession<br>
 ✔ Merit-Based Selection<br>
-✔ Scholarship Entrance Examination<br>
-✔ Limited Seats Available
+✔ Scholarship Entrance Exam<br>
+✔ Limited Seats Available<br>
+✔ Special Mentoring Support
+</p>
+
+<br>
+
+<p>
+📅 Date: 21 June 2026<br>
+⏰ Time: 10:00 AM – 11:00 AM
 </p>
 
 </div>
 
 </section>
 
-<div class="contact">
+<section>
+
+<h2 class="section-title">
+Student Testimonials
+</h2>
+
+<div class="cards">
+
+<div class="card">
+★★★★★
+<p>
+Excellent faculty and teaching methods.
+</p>
+</div>
+
+<div class="card">
+★★★★★
+<p>
+Weekly tests helped me improve a lot.
+</p>
+</div>
+
+<div class="card">
+★★★★★
+<p>
+Best academy for NEET and JEE preparation.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+Frequently Asked Questions
+</h2>
+
+<div class="card">
+
+<div class="faq-question">
+What is the course fee?
+</div>
+
+<div class="faq-answer">
+₹25,000 per year.
+</div>
+
+</div>
+
+<br>
+
+<div class="card">
+
+<div class="faq-question">
+Who can join the academy?
+</div>
+
+<div class="faq-answer">
+Students from Class 9 to Class 12.
+</div>
+
+</div>
+
+<br>
+
+<div class="card">
+
+<div class="faq-question">
+Are online classes available?
+</div>
+
+<div class="faq-answer">
+Yes, both online and offline classes are available.
+</div>
+
+</div>
+
+</section>
+
+<div class="contact" id="contact">
 
 <h2>Contact Us</h2>
 
-<p><strong>Er. Shahul Hameed. F</strong></p>
+<p>
+<strong>Er. Shahul Hameed. F</strong>
+</p>
 
-<p>Chief Administrative Officer</p>
+<p>
+Chief Administrative Officer
+</p>
 
-<p>📞 +91 88256 58383</p>
+<br>
+
+<p>
+📞 +91 88256 58383
+</p>
+
+<p>
+📧 nextgenacademy2026@gmail.com
+</p>
+
+<br>
 
 <p>
 📍 74/35, South Ayyapuram Street,<br>
@@ -290,15 +526,81 @@ Tenkasi District, Tamil Nadu
 
 <footer>
 
-<p>© 2026 NEXTGEN NEET | JEE Academy. All Rights Reserved.</p>
+<p>
+© 2026 NEXTGEN NEET | JEE Academy
+</p>
 
-<p class="reg">REG: TN-37-0056022</p>
+<p>
+REG: TN-37-0056022
+</p>
 
 </footer>
 
 <a href="https://wa.me/918825658383" class="whatsapp">
 WhatsApp
 </a>
+
+<script>
+
+/* Counter Animation */
+
+const counters=document.querySelectorAll('.counter');
+
+counters.forEach(counter=>{
+
+counter.innerText='0';
+
+const updateCounter=()=>{
+
+const target=+counter.getAttribute('data-target');
+
+const count=+counter.innerText;
+
+const increment=target/100;
+
+if(count<target){
+
+counter.innerText=Math.ceil(count+increment);
+
+setTimeout(updateCounter,20);
+
+}else{
+
+counter.innerText=target;
+
+}
+
+};
+
+updateCounter();
+
+});
+
+/* FAQ */
+
+const faq=document.querySelectorAll('.faq-question');
+
+faq.forEach(item=>{
+
+item.addEventListener('click',()=>{
+
+const answer=item.nextElementSibling;
+
+if(answer.style.display==="block"){
+
+answer.style.display="none";
+
+}else{
+
+answer.style.display="block";
+
+}
+
+});
+
+});
+
+</script>
 
 </body>
 </html>
